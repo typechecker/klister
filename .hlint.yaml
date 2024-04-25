@@ -7,7 +7,6 @@
 - ignore: {name: "Redundant <$>"} # 17 hints
 - ignore: {name: "Redundant bracket"} # 12 hints
 - ignore: {name: "Replace case with fromMaybe"} # 3 hints
-- ignore: {name: "Unused LANGUAGE pragma"} # 16 hints
 - ignore: {name: "Use $>"} # 2 hints
 - ignore: {name: "Use <&>"} # 1 hint
 - ignore: {name: "Use >=>"} # 1 hint

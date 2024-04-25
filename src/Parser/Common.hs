@@ -1,4 +1,4 @@
-{-# LANGUAGE OverloadedStrings, ViewPatterns #-}
+{-# LANGUAGE OverloadedStrings #-}
 module Parser.Common (Parser, eatWhitespace, literal) where
 
 import Data.Text (Text)

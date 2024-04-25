@@ -5,9 +5,7 @@
 {-# LANGUAGE RoleAnnotations    #-}
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
 {-# LANGUAGE TypeFamilies       #-}
-{-# LANGUAGE TypeSynonymInstances #-}
 {-# LANGUAGE RankNTypes         #-}
-{-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE UndecidableInstances #-}
 {-# LANGUAGE FlexibleContexts #-}
 

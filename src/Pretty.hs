@@ -1,7 +1,6 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE FunctionalDependencies #-}
-{-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE ParallelListComp #-}
 {-# LANGUAGE ScopedTypeVariables #-}
@@ -201,7 +200,7 @@ class PrettyBinder ann a | a -> ann where
 instance PrettyBinder VarInfo a => PrettyBinder VarInfo (TyF a) where
   ppBind env t =
     let subs = ppBind env <$> t
-    in (pp env (fst <$> subs), foldMap snd subs) 
+    in (pp env (fst <$> subs), foldMap snd subs)
 
 newtype BinderPair = BinderPair (Ident, Var)
 
